@@ -40,6 +40,8 @@ def prime?(int)
         print "Ok, we give up. True."
         return true
 #       break
+      elsif int == -1
+        return false 
       else
 
       end
@@ -48,8 +50,6 @@ def prime?(int)
     if divisor == int 
       puts "This is a PRIME example. True."
       return true
-    elsif int == -1
-      return false    
     else
       puts "That shit's divisible by #{divisor}"
       puts false
