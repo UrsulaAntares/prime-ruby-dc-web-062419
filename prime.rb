@@ -32,10 +32,10 @@ def prime?(int)
   until remainder == 0 do
 #     divisor = 2
 #      remainder = int % divisor
-      puts "trying a divisor of #{divisor}"
+  #    puts "trying a divisor of #{divisor}"
       divisor = divisor + 1
       remainder = int % divisor
-      puts "the remainder is now #{remainder}"
+  #    puts "the remainder is now #{remainder}"
       if divisor == 9999
         print "Ok, we give up. True."
         return true
