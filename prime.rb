@@ -40,7 +40,7 @@ def prime?(int)
         print "Ok, we give up. True."
         return true
 #       break
-      elsif int == -1
+      elsif int == -1 || int == 1
         return false 
       else
 
