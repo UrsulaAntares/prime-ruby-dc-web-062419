@@ -3,7 +3,7 @@
 #  int % (rand(999999999)) != 0 ? true : false
 #end
 
-int = gets.chomp.to_i
+#int = gets.chomp.to_i
 def prime?(int)
 #   int < 0 ? int = int*(-1) : int = int
    divisor = 2
@@ -62,4 +62,4 @@ def prime?(int)
 #  return false
 end
 
-prime?(int)
+#prime?(int)
